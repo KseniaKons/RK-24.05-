@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/KseniaKons/RK-24.05-/issues"
   },
-  "homepage": "https://github.com/KseniaKons/RK-24.05-#readme"
+  "homepage": "https://github.com/KseniaKons/RK-24.05-#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
