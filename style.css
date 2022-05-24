@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&display=swap');
+
+.bodyy {
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column
+}
+
+.mainn {
+    flex-grow: 1;
+}
+
+.modal {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    transition: 0.5s all;
+    z-index: 30;
+
+    box-shadow: 0 3px 10px -.5px rgba(0, 0, 0, .2);
+    text-align: center;
+    padding: 30px;
+    border-radius: 3px;
+    background-color: #fff;
+}
+
+body.active {
+
+    overflow: hidden;
+}
+
+.overlay {
+
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 20;
+
+
+}
+
+.but {
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #414b52;
+    margin: 10px;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.modal.active {
+    
+    transform: translate(-50%, -50%) scale(1);
+    transition: 0.5s all;
+}
+
+.overlay.active {
+    display: block;
+}
+
+.pole.active {
+    background-color: red;
+
+}
+
+.pole{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.Zagolovok {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.ZagForma
+{
+    margin: 10px;
+}
